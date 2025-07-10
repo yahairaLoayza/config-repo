@@ -15,7 +15,7 @@ spring:
   cloud:
     vault:
       uri: http://localhost:8200
-      token: root
+      token: hvs.s6IfmtU1wo5uFEHoUotKFJ7t
       authentication: TOKEN
       kv:
         enabled: true
