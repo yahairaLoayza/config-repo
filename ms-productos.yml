@@ -13,7 +13,6 @@ spring:
       ddl-auto: update
     show-sql: true
   cloud:
-    cloud:
     vault:
       token: token-estatico-yahaira
       uri: http://localhost:8200
