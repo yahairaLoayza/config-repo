@@ -14,7 +14,7 @@ spring:
     show-sql: true
   cloud:
     vault:
-      token: token-estatico-yahaira
+      token: hvs.pEcDeuKxXk603WbtHSeQ0NMm
       uri: http://localhost:8200
       authentication: TOKEN
       kv:
