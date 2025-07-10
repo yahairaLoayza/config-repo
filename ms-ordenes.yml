@@ -13,10 +13,10 @@ spring:
       ddl-auto: update
     show-sql: true
   cloud:
-    vault:
-      token: hvs.pEcDeuKxXk603WbtHSeQ0NMm
+     vault:
       uri: http://localhost:8200
-      authentication: TOKEN
+      authentication: token
+      token:  hvs.pEcDeuKxXk603WbtHSeQ0NMm
       kv:
         enabled: true
         backend: secret
